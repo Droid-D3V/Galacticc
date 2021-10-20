@@ -21,6 +21,7 @@ public class ModuleManager {
 
     public ModuleManager(){
         (modules = new ArrayList<Module>()).clear();
+        this.modules.add(new ChestESP());
         this.modules.add(new ClickGUI());
         this.modules.add(new HUD());
         this.modules.add(new Sprint());
@@ -29,13 +30,13 @@ public class ModuleManager {
         this.modules.add(new Fly());
         this.modules.add(new NoFall());
         this.modules.add(new Fullbright());
-        //this.modules.add(new Speed());
+        this.modules.add(new Speed());
         this.modules.add(new AntiBot());
         this.modules.add(new FastPlace());
         this.modules.add(new SelfDestruct());
         this.modules.add(new DelayRemover());
-        //this.modules.add(new Reach());
-        //this.modules.add(new PlayerESP());
+        this.modules.add(new Reach());
+        this.modules.add(new PlayerESP());
         this.modules.add(new Killaura());
     }
 
