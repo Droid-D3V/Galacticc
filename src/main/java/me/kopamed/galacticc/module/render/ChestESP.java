@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 
 import java.util.List;
 
-public class PlayerESP extends Module {
+public class ChestESP extends Module {
 
     public PlayerESP() {
         super("SOON [wip]", "Renders chests in a dif way", false, false, Category.RENDER);
