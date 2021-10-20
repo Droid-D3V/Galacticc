@@ -28,7 +28,7 @@ public class Killaura extends Module {
         super("Killaura", "Blatantly attacks enemies", true, false, Category.COMBAT);
         Setting cps = new Setting("CPS", this, 10, 0.1, 30, false);
         Setting reach = new Setting("Reach", this, 6, 1, 8, false);
-        Setting autoBlock = new Setting("AutoBlock", this, false);
+        Setting autoBlock = new Setting("AutoBlock", this, true);
 
         Galacticc.instance.settingsManager.rSetting(cps);
         Galacticc.instance.settingsManager.rSetting(reach);
